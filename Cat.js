@@ -1,3 +1,4 @@
-var Cat=function(name){
-	
+var Cat=function(){
+	this.stomach=[];
 }
+module.exports=Cat;

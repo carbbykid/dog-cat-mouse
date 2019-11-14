@@ -1,0 +1,3 @@
+var Cat=function(name){
+	
+}

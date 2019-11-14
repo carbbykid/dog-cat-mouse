@@ -7,3 +7,4 @@ Mouse.prototype.eat=function(){
 var Jerry = new Mouse('Jerry');
 Jerry.eat();
 console.log(Jerry);
+module.exports=Mouse;

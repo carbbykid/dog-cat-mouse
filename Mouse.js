@@ -1,10 +1,10 @@
 function Mouse(name){
 	this.name=name;
+	this.dead=false;
 }
-Mouse.prototype.eat=function(){
-	console.log('bị ăn');
+Mouse.prototype.die=function(){
+	this.deaed=true;
 }
 var Jerry = new Mouse('Jerry');
-Jerry.eat();
 console.log(Jerry);
 module.exports=Mouse;
